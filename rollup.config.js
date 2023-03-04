@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'my-element.js',
+  input: 'lib/components/ha-app.js',
   output: {
-    file: 'my-element.bundled.js',
+    file: 'ha-app.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {
