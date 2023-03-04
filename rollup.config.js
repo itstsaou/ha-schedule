@@ -16,7 +16,7 @@ export default {
     'node_modules/lit/polyfill-support.js',
   ],
   output: {
-    file: 'public/js/app.bundled.js',
+    dir: 'public/js/',
     format: 'esm',
   },
   onwarn(warning) {
