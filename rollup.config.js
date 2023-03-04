@@ -10,9 +10,13 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'lib/components/ha-app.js',
+  input: [
+    'lib/components/ha-app.js',
+    'node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js',
+    'node_modules/lit/polyfill-support.js',
+  ],
   output: {
-    file: 'ha-app.bundled.js',
+    file: 'public/js/app.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {
