@@ -1,10 +1,6 @@
-# LitElement JavaScript starter
+# HackPalachia 2023 Schedule
 
-This project includes a sample component using LitElement with JavaScript.
-
-This template is generated from the `lit-starter-js` package in [the main Lit
-repo](https://github.com/lit/lit). Issues and PRs for this template should be
-filed in that repo.
+Show the schedule of HackPalachia 2023.
 
 ## Setup
 
